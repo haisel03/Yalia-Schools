@@ -1,0 +1,87 @@
+{
+  "name": "yalia_schools",
+  "version": "1.0.0",
+  "description": "Plantilla FrontEnd para el sistema de inscripcion de colegios ",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress",
+    "watch": "webpack --config webpack.config.js --watch --progress",
+    "start": "webpack serve --config webpack.config.js --progress",
+    "prepublishOnly": "cross-env NODE_ENV=production webpack --progress --config webpack.config.js"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 major versions",
+    "not dead",
+    "Chrome >= 60",
+    "Firefox >= 60",
+    "not Edge < 79",
+    "Firefox ESR",
+    "iOS >= 10",
+    "Safari >= 10",
+    "Android >= 6",
+    "not Explorer <= 11"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haisel03/Yalia-Schools.git"
+  },
+  "keywords": [
+    "ASP.net",
+    "SqlServer",
+    "Bootstrap5",
+    "Admin",
+    "Dashboard",
+    "Colegios",
+    "Sistema",
+    "MVC"
+  ],
+  "author": "Haisel Ramirez <haiselramirez@hotmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/haisel03/Yalia-Schools/issues"
+  },
+  "homepage": "https://github.com/haisel03/Yalia-Schools#readme",
+  "devDependencies": {
+    "@babel/core": "7.18.10",
+    "@babel/plugin-syntax-dynamic-import": "7.8.3",
+    "@babel/preset-env": "7.18.10",
+    "@babel/register": "7.18.9",
+    "autoprefixer": "10.4.8",
+    "babel-eslint": "10.1.0",
+    "babel-loader": "8.2.5",
+    "copy-webpack-plugin": "9.1.0",
+    "cross-env": "7.0.3",
+    "css-loader": "6.7.1",
+    "css-minimizer-webpack-plugin": "3.4.1",
+    "eslint": "7.32.0",
+    "file-loader": "6.2.0",
+    "filemanager-webpack-plugin": "^8.0.0",
+    "hard-source-webpack-plugin": "0.13.1",
+    "mini-css-extract-plugin": "2.6.1",
+    "postcss-loader": "6.2.1",
+    "sass": "1.54.4",
+    "sass-loader": "12.6.0",
+    "terser-webpack-plugin": "5.3.3",
+    "url-loader": "4.1.1",
+    "webpack": "^5.82.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "7.12.1",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@popperjs/core": "2.11.5",
+    "bootstrap": "5.2.0",
+    "chart.js": "2.9.4",
+    "feather-icons": "4.29.0",
+    "flatpickr": "^4.6.13",
+    "jquery": "^3.6.4",
+    "jsvectormap": "1.5.0",
+    "simplebar": "5.3.8",
+    "sweetalert2": "^11.4.8"
+  },
+  "main": "postcss.config.js"
+}
